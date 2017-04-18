@@ -18,7 +18,7 @@ var gameConfig = {
 var cursors;
 
 // Create game object
-var game = new Phaser.Game(gameConfg);
+var game = new Phaser.Game(gameConfig);
 
 game.state.add('play', {
   preload: function() {
